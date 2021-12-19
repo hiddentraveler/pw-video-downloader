@@ -1,0 +1,24 @@
+# pw-video-downloader
+video downloader for my coaching.
+
+# how to use 
+first copy the following type of link from network tab in any browser. which can be seen as
+
+
+#+begin_example
+https://random-string/random-string/audio/720/random-number.mp4
+or
+https://random-string/random-string/video/720/random-number.mp4
+#+end_example
+
+then give the script run privilages
+#+begin_example
+sudo chmod +x dpwv.sh
+#+end_example
+
+then execute the script
+#+begin_example
+./dpwv.sh
+#+end_example
+the script will demand the link paste it and then the script will demand the name of the file you want after you give it
+a name it will start downloading.
